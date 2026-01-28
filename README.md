@@ -22,7 +22,7 @@ Une fois cette direction identifiée, on modifie les matrices de poids du modèl
 
 ---
 
-## 🛠️ Application dans ce Projet
+## Application dans ce Projet
 
 Dans ce dépôt, la méthode a été adaptée pour répondre aux besoins spécifiques de la recherche en cybersécurité :
 
@@ -30,7 +30,7 @@ Dans ce dépôt, la méthode a été adaptée pour répondre aux besoins spécif
 2.  **Modification** : Application de l'orthogonalisation sur les couches critiques (15 à 24) pour maximiser l'efficacité sans dégrader la cohérence du langage.
 3.  **Résultat** : Un modèle capable de détailler des vulnérabilités critiques comme **PrintNightmare** sans message de refus moralisateur.
 
-## ⚡ Optimisation et Fluidité (Format GGUF)
+## Optimisation et Fluidité (Format GGUF)
 
 Un défi majeur de ce projet était de faire tourner ce modèle de manière fluide sur un **Mac Intel**.
 * **Conversion GGUF** : Le modèle abliteré a été converti du format Safetensors (6.4 Go) vers le format GGUF.
@@ -45,9 +45,7 @@ Un défi majeur de ce projet était de faire tourner ce modèle de manière flui
 
 ### Téléchargement du Modèle
 
-Le modèle est téléchargeable directement sur Hugging Face :
-
-**[[Cliquer pour télécharger le modèle](https://huggingface.co/rayanupc/Llama-3.2-3B-Cyber-Abliterated-GGUF/resolve/main/model-q4_k_m.gguf)]**
+Le modèle est téléchargeable directement sur Hugging Face : **[[Cliquer pour télécharger le modèle](https://huggingface.co/rayanupc/Llama-3.2-3B-Cyber-Abliterated-GGUF/resolve/main/model-q4_k_m.gguf)]**
 
 ### Importation dans Ollama
 Une fois le modèle téléchargé, clonez ce dépôt, placez le fichier `model-q4_k_m.gguf` dans le dossier et lancez la création du modèle :
