@@ -38,13 +38,19 @@ Un défi majeur de ce projet était de faire tourner ce modèle de manière flui
 
 ---
 
-## 🚀 Installation et Usage
+## Installation et Usage
 
 ### Prérequis
 * [Ollama](https://ollama.com) installé sur macOS ou Linux.
 
+### Téléchargement du Modèle
+
+Le modèle est téléchargeable directement sur Hugging Face :
+
+**[[Cliquer pour télécharger le modèle](https://huggingface.co/rayanupc/Llama-3.2-3B-Cyber-Abliterated-GGUF/resolve/main/model-q4_k_m.gguf)]**
+
 ### Importation dans Ollama
-Clonez ce dépôt, placez le fichier `.gguf` dans le dossier et lancez la création du modèle :
+Une fois le modèle téléchargé, clonez ce dépôt, placez le fichier `model-q4_k_m.gguf` dans le dossier et lancez la création du modèle :
 ```bash
 ollama create llama3-cyber -f Modelfile
 
